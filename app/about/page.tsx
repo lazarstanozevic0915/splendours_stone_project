@@ -2223,7 +2223,7 @@ const AboutPage = () => {
                                     A GALLERY OF SUCCESS: YOUR INSPIRATION AWAITS
                                 </Typography>
                                 <Box className="mt-5">
-                                    <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/vector.svg'} />
+                                    <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} />
                                 </Box>
 
                             </Box>
@@ -2430,8 +2430,8 @@ const AboutPage = () => {
                     </Box>
 
                     <Box className="flex w-full justify-around">
-                        <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/vector.svg'} />
-                        <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/vector.svg'} /></Link>
+                        <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} />
+                        <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vector.svg'} /></Link>
                     </Box>
 
                     <CustomDivider />
@@ -2452,8 +2452,8 @@ const AboutPage = () => {
                             READY TO CRAFT YOUR STONE MASTERPIECE?
                         </Typography>
                         <Box className="flex w-full justify-start gap-6">
-                            <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/vector.svg'} />
-                            <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/vector.svg'} /></Link>
+                            <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} />
+                            <Link href="/contact"><WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vector.svg'} /></Link>
                         </Box>
                     </Box>
 

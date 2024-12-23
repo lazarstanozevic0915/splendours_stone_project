@@ -1278,7 +1278,7 @@ const ServicesPage = () => {
                             </Box>
 
                             <Box className="py-8">
-                                <GreenCustomButton label={'Read more'} iconSrc={'/images/vector.svg'} />
+                                <GreenCustomButton label={'Read more'} iconSrc={'/images/icons/Vector.svg'} />
                             </Box>
 
                         </Box>
@@ -1347,8 +1347,8 @@ const ServicesPage = () => {
                                     EXPLORING OUR PRICING
                                 </Typography>
                             </Box>
-                            {/* <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/vector.svg'} /> */}
-                            <GreenCustomButton label={'Enquire Now!'} iconSrc={'/images/vector.svg'} />
+                            {/* <WhiteCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} /> */}
+                            <GreenCustomButton label={'Enquire Now!'} iconSrc={'/images/icons/Vector.svg'} />
                         </Box>
                     </Box>
 
@@ -1504,7 +1504,7 @@ const ServicesPage = () => {
                                 </Box>
 
                                 <Box>
-                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/vector.svg'} />
+                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/icons/Vector.svg'} />
                                 </Box>
 
                             </Box>
@@ -1565,7 +1565,7 @@ const ServicesPage = () => {
                                 </Box>
 
                                 <Box>
-                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/vector.svg'} />
+                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/icons/Vector.svg'} />
                                 </Box>
 
                             </Box>
@@ -1626,7 +1626,7 @@ const ServicesPage = () => {
                                 </Box>
 
                                 <Box>
-                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/vector.svg'} />
+                                    <GreenCustomButton label={'Read more'} iconSrc={'/images/icons/Vector.svg'} />
                                 </Box>
 
                             </Box>
@@ -1692,7 +1692,7 @@ const ServicesPage = () => {
                     </Box>
                     <Box className="flex w-full justify-center py-4">
                         <Link href="/contact">
-                            <WhiteCustomButton label={'Contact Us'} iconSrc={'/images/vector.svg'} />
+                            <WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vector.svg'} />
                         </Link>
                     </Box>
                 </Box> : <Box className="flex w-full flex-col relative items-center justify-center gap-y-12 text-white py-12">
@@ -1736,7 +1736,7 @@ const ServicesPage = () => {
                         </Typography>
                     </Box>
                     <Link href={'/contact'}  className="flex w-full justify-center py-4">
-                        <WhiteCustomButton label={'Contact Us'} iconSrc={'/images/vector.svg'} />
+                        <WhiteCustomButton label={'Contact Us'} iconSrc={'/images/icons/Vector.svg'} />
                     </Link>
                 </Box>
                 }

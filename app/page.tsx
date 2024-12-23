@@ -133,7 +133,7 @@ const HomePage = () => {
                         </Typography>
                     </Box>
                     <Box sx={{ marginTop: isMobile ? '30px' : '0px' }}>
-                        <WhiteCustomButton label={'View all'} iconSrc={'/images/vector.svg'} />
+                        <WhiteCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                     </Box>
                 </Box>
 
@@ -198,7 +198,7 @@ const HomePage = () => {
                         </Typography>
                     </Box>
                     <Box className="flex justify-center w-full">
-                        <GreenCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                        <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                     </Box>
                 </Box>
 
@@ -263,7 +263,7 @@ const HomePage = () => {
                                 </Typography>
                             </Box>
                             <Box>
-                                <GreenCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                                <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                             </Box>
 
                         </Box>
@@ -383,10 +383,10 @@ const HomePage = () => {
                         </Box>
                         <Box className="flex w-full justify-between">
                             <Box className="flex">
-                                <WhiteCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                                <WhiteCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                             </Box>
                             <Box className="flex">
-                                <Link href={'/visualizer'}><WhiteCustomButton label={'Try Now!'} iconSrc={'images/vector.svg'} /></Link>
+                                <Link href={'/visualizer'}><WhiteCustomButton label={'Try Now!'} iconSrc={'/images/icons/Vector.svg'} /></Link>
                             </Box>
                         </Box>
 
@@ -411,7 +411,7 @@ const HomePage = () => {
                             </Typography>
                         </Box>
                         <Box>
-                            <WhiteCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                            <WhiteCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                         </Box>
 
                     </Box>}
@@ -490,7 +490,7 @@ const HomePage = () => {
                             }}>Tag:  Exclusive</Typography>
                         </Box>
                         <Box>
-                            <Link href={'/visualizer'}><GreenCustomButton label={'Try Now!'} iconSrc={'images/vector.svg'} /></Link>
+                            <Link href={'/visualizer'}><GreenCustomButton label={'Try Now!'} iconSrc={'/images/icons/Vector.svg'} /></Link>
                         </Box>
                     </Box>
                 </Box>}
@@ -548,7 +548,7 @@ const HomePage = () => {
                         </Typography>
                     </Box>
                     <Box className="flex justify-center w-full">
-                        <GreenCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                        <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                     </Box>
                 </Box>
 
@@ -589,7 +589,7 @@ const HomePage = () => {
                             </Typography>
                         </Box>
                         <Box className="mt-5">
-                            <GreenCustomButton label={'View all'} iconSrc={'images/vector.svg'} />
+                            <GreenCustomButton label={'View all'} iconSrc={'/images/icons/Vector.svg'} />
                         </Box>
 
                     </Box>
@@ -808,7 +808,7 @@ const HomePage = () => {
                     <CustomTextField />
                 </Box>
                 <Box className="flex w-full justify-center">
-                    <WhiteCustomButton label={'Send'} iconSrc={'/images/vector.svg'} />
+                    <WhiteCustomButton label={'Send'} iconSrc={'/images/icons/Vector.svg'} />
                 </Box>
             </Box> : <Box className="flex items-end justify-between w-full px-16">
                 <Box className="flex flex-col justify-end w-1/4">
@@ -853,7 +853,7 @@ const HomePage = () => {
                     <CustomTextField />
                 </Box>
                 <Box className="flex justify-end w-1/4">
-                    <WhiteCustomButton label={'Send'} iconSrc={'/images/vector.svg'} />
+                    <WhiteCustomButton label={'Send'} iconSrc={'/images/icons/Vector.svg'} />
                 </Box>
             </Box>}
 

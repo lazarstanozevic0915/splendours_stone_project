@@ -716,9 +716,9 @@ const PortfolioPage = () => {
                                 READY TO START YOUR STONE JOURNEY?
                             </Typography></Box>
                         <Box className="flex w-full flex-col items-center justify-between gap-4">
-                            <GreenCustomButton label={'Enquire now!'} iconSrc={'/images/Vector.svg'} />
+                            <GreenCustomButton label={'Enquire now!'} iconSrc={'/images/icons/Vector.svg'} />
                             <Link href="/contact">
-                                <GreenCustomButton label={'Contact Us!'} iconSrc={'/images/Vector.svg'} />
+                                <GreenCustomButton label={'Contact Us!'} iconSrc={'/images/icons/Vector.svg'} />
                             </Link>
                         </Box>
                     </Box>
@@ -814,8 +814,8 @@ const PortfolioPage = () => {
                             </Typography>
 
                             <Box className="flex w-full justify-between gap-4">
-                                <GreenCustomButton label={'Enquire now!'} iconSrc={'/images/vector.svg'} />
-                                <Link href="/contact"><GreenCustomButton label={'Contact Us!'} iconSrc={'/images/vector.svg'} /></Link>
+                                <GreenCustomButton label={'Enquire now!'} iconSrc={'/images/icons/Vector.svg'} />
+                                <Link href="/contact"><GreenCustomButton label={'Contact Us!'} iconSrc={'/images/icons/Vector.svg'} /></Link>
                             </Box>
                         </Box>
                     </Box>
