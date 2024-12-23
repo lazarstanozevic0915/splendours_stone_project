@@ -1,22 +1,37 @@
-import { NextApiRequest, NextApiResponse } from 'next';
-import nodemailer from 'nodemailer';
-import connectToDatabase from '@/lib/mongodb';
+import { NextApiRequest, NextApiResponse } from "next";
+import nodemailer from "nodemailer";
+import connectToDatabase from "@/lib/mongodb";
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method Not Allowed" });
   }
 
   try {
-    const { name, email, phone, date, stoneService, stoneProduct, stonePhase, specialRequests, role } = req.body;
+    const {
+      name,
+      email,
+      phone,
+      date,
+      stoneService,
+      stoneProduct,
+      stonePhase,
+      specialRequests,
+      role,
+    } = req.body;
 
-    if (!name || !email || !phone) {
-      return res.status(400).json({ error: 'Missing required fields' });
-    }
+    console.log("req.body-1----->", req.body);
+
+    // if (!name || !email || !phone) {
+    //   return res.status(400).json({ error: "Missing required fields" });
+    // }
 
     // Save to MongoDB
     const db = await connectToDatabase();
-    const collection = db.collection('formSubmissions');
+    const collection = db.collection("formSubmissions");
     await collection.insertOne({
       name,
       email,
@@ -41,9 +56,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //     },
     // });
 
-    if (req.body.role == 4) {
+    console.log(req.body);
 
-      console.log("role---->", req.body.role);
+    if (req.body.role == "4") {
+      console.log("req.body-2---->", req.body);
 
       const transporter = nodemailer.createTransport({
         host: "smtp.hostinger.com",
@@ -56,10 +72,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       });
 
       const mailOptions = {
-        from: req.body.email,
-        // to: "info@splendourinstone.com",
+        from: "mailer@splendourinstone.com.au",
         to: "sherehiyandriy@gmail.com",
-        subject: 'New Booking Submission',
+        replyTo: email,
+        subject: "New Booking Submission",
         text: `
                   Name: ${name}
                   Email: ${email}
@@ -71,12 +87,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                   Special Requests: ${specialRequests}
               `,
       };
+      console.log("mailoptions:-->", mailOptions);
+
       await transporter.sendMail(mailOptions);
     }
 
-    res.status(200).json({ message: 'Form submitted successfully!' });
+    res.status(200).json({ message: "Form submitted successfully!" });
   } catch (error) {
-    console.error('Error handling form submission:', error);
-    res.status(500).json({ error: 'An error occurred while processing the request.' });
+    console.error("Error handling form submission:", error);
+    res
+      .status(500)
+      .json({ error: "An error occurred while processing the request." });
   }
 }
