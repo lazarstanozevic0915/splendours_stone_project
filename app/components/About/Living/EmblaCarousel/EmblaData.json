@@ -1,0 +1,7 @@
+{
+    "resources": [
+      { "imageUrl": "/images/About/Living/image1.jpg", "name": "DURABILITY AND LONGEVITY","subname":"Are you tired of chipped floors or walls that show every mark? Stone offers unmatched resilience, built to endure daily wear and tear, saving you time and money on replacements." },
+      { "imageUrl": "/images/About/Living/image2.jpg", "name": "EFFORTLESS ELEGANCE" ,"subname":"Elevate your space with natural stone's timeless beauty. Our curated collection offers a variety of textures, colours, and finishes to complement any design style perfectly."},
+      { "imageUrl": "/images/About/Living/image3.jpg", "name": "SUSTAINABLE CHOICE","subname":"Our commitment to responsible sourcing ensures you're making an environmentally conscious decision. Invest in the enduring beauty of natural stone with peace of mind." }
+    ]
+  }

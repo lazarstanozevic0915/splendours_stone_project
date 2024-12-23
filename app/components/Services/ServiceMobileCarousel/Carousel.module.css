@@ -1,0 +1,73 @@
+.embla {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .emblaViewport {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .emblaContainer {
+    display: flex;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .emblaSlide {
+    position: relative;
+    flex: 0 0 100%; /* One item per screen */
+    padding: 0 10px;
+  }
+  
+  .emblaSlideImg {
+    width: 100%;
+    height: 620px;
+    border-radius: 1rem;
+    object-fit: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9))
+  }
+  
+  .emblaButton {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    border: none;
+    /* border-radius: 50%; */
+    width: 7rem;
+    height: 2.5rem;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  
+  .emblaButtonPrev {
+    left: 10px;
+  }
+  
+  .emblaButtonNext {
+    right: 10px;
+  }
+  
+  .imageName {
+    position: absolute;
+    width: 70%;
+    top: 30px;
+    left: 30px;
+    z-index: 10; /* Ensure it appears above the image */
+  }
+  .imageContent {
+    width: 80%;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 10; /* Ensure it appears above the image */
+  }

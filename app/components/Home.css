@@ -1,0 +1,82 @@
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('/images/Home/background.jpg');
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        background-image: url('/images/Home/background-mobile.png');
+    }
+
+    .header-container {
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 15vh;
+    }
+
+    .main-container {
+        height: 60vh;
+    }
+
+    .right-section {
+        justify-content: flex-start;
+    }
+
+    .text-circle-container {
+        display: none;
+    }
+
+    .right-text-container {
+        position: absolute;
+        right: 10px;
+        display: block;
+    }
+
+    .text-section {
+        padding: 0 10px;
+        height: 30vh;
+    }
+
+    .buttons-container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .header-container {
+        height: 20vh;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-container {
+        height: 72vh;
+    }
+
+    .text-circle-container {
+        display: flex;
+    }
+
+    .right-text-container {
+        display: flex;
+    }
+
+    .text-section {
+        height: 8vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .buttons-container {
+        justify-content: flex-start;
+    }
+}

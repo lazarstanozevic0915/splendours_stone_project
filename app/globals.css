@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --background: #ffffff; */
+
+  --background:#283C28;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* --background: #0a0a0a; */
+    --background:#283C28;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.magnifier-container:hover .magnifier-image {
+  transform: scale(1.5); /* Zoom effect */
+}
+.magnifier-container {
+  overflow: hidden; /* Restrict image overflow */
+  border-radius: 50%; /* Optional: Circle effect around image */
+}
+.spBox{
+  padding-left:120px!important ;
+  padding-right:120px!important;
+}

@@ -1,0 +1,13 @@
+.relativeScene{
+    position:relative;
+}
+#leftScene{
+    position:absolute;
+    left:12px;
+    top:500px;
+}
+#rightScene{
+    top:500px;
+    position: absolute;
+    right:12px;
+}

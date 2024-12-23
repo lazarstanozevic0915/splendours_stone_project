@@ -1,0 +1,16 @@
+{
+    "resources": [
+        {
+            "phase": "INSTALLATION"
+        },
+        {
+            "phase": "PLANNING"
+        },
+        {
+            "phase": "CONSULTATION"
+        },
+        {
+            "phase": "CONSULTATION"
+        }
+    ]
+}

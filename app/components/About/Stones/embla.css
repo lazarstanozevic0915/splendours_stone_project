@@ -1,0 +1,46 @@
+.embla_stone {
+  max-width: 48rem;
+  margin: auto;
+  --slide-size: 45vw; /* Fixed slide width */
+  --slide-spacing: 5vw; /* Space between slides */
+}
+
+.embla__viewport_stone {
+  overflow: hidden;
+}
+
+.embla__container_stone {
+  display: flex;
+  gap: var(--slide-spacing); /* Adds consistent spacing between slides */
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide_stone {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size); /* Fixed slide size */
+  width: var(--slide-size);   /* Ensure slide matches image size */
+  height: var(--slide-size);
+  min-width: 0;
+}
+
+.embla__slide__img_stone {
+  border-radius: 1.8rem;
+  display: block;
+  width: 100%;    /* Matches the slide width */
+  height: 100%;   /* Matches the slide height */
+  object-fit: cover; /* Ensures proper image fit */
+}
+
+.embla__parallax_stone {
+  border-radius: 1.8rem;
+  height: 100%;
+  overflow: hidden;
+}
+
+.embla__parallax__layer_stone {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

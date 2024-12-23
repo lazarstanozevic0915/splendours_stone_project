@@ -1,0 +1,32 @@
+.embla_journey {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport_journey {
+  overflow: hidden;
+}
+
+.embla__container_journey {
+  display: flex;
+  gap: 1rem;
+  /* transition: transform 0.1s ease; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.embla__slide_journey {
+  flex: 0 0 100%; /* Two items on the screen */
+  position: relative;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.embla__slide__img_journey {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+

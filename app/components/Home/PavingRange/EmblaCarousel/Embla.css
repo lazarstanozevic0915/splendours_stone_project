@@ -1,0 +1,46 @@
+
+
+  .embla__buttons_wall {
+    /* display: grid; */
+    display: flex;
+    color: white;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    align-items: center;
+  }
+  
+  .embla__button_wall {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border: none;
+    color: white;
+    /* padding: 10px; */
+    cursor: pointer;
+    pointer-events: auto; /* Enables clicks */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); */
+    pointer-events: auto; /* Enable pointer events for buttons */
+  }
+  
+  .embla__button:disabled_wall {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .embla__button--prev_wall {
+    position: absolute;
+    left: 5px; /* Adjust horizontal distance from left edge */
+  }
+  
+  .embla__button--next_wall {
+    position: absolute;
+    right: 5px; /* Adjust horizontal distance from right edge */
+  }
+  .embla__button__svg_wall {
+    width: 13px;
+    height: 13px;
+  }

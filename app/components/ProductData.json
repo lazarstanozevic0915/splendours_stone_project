@@ -1,0 +1,30 @@
+{
+    "resources": [
+      {
+        "title": "JAMIESON",
+        "imageUrl": "images/Home/Booking/Products/Kakadu1.jpg"
+        
+      },
+      {
+        "title": "JAMIESON2",
+        "imageUrl": "/images/Home/Booking/Products/Kakadu2.jpg"
+      },
+      {
+        "title": "JAMIESON3",
+        "imageUrl": "/images/Home/Booking/Products/Kakadu3.jpg"
+      },
+      {
+        "title": "JAMIESON",
+        "imageUrl": "/images/Home/Booking/Products/Kakadu1.jpg"
+      },
+      {
+        "title": "JAMIESON2",
+        "imageUrl": "images/Home/Booking/Products/Kakadu2.jpg"
+        
+      },
+      {
+        "title": "JAMIESON3",
+        "imageUrl": "/images/Home/Booking/Products/Kakadu3.jpg"
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "resources": [
+      { "imageUrl": "/images/Home/PavingRange/product1.jpg", "name": "PORPHYRY" },
+      { "imageUrl": "/images/Home/PavingRange/product2.jpg", "name": "QUARTZITE" },
+      { "imageUrl": "/images/Home/PavingRange/product3.jpg", "name": "MARBLE" },
+      { "imageUrl": "/images/Home/PavingRange/product4.jpg", "name": "LIMESTONE" },
+      { "imageUrl": "/images/Home/PavingRange/product5.jpg", "name": "GRANTE" },
+      { "imageUrl": "/images/Home/PavingRange/product6.jpg", "name": "BLUESTONE" }
+    ]
+  }

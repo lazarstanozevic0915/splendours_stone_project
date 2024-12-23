@@ -1,0 +1,16 @@
+{
+    "resources": [
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Portfolio/practicality/left.jpg"
+      },
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Portfolio/practicality/main.jpg"
+      },
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Portfolio/practicality/right.jpg"
+      }
+    ]
+  }

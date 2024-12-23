@@ -1,0 +1,32 @@
+{
+    "resources": [
+      {
+        "product_name": "PARK ON PARK",
+        "product_subname":"JAMIESON",
+        "product_content":"Available in our freeform style, the Charlotte sandstone is made up of beautiful soft hues such as cream, yellow and pink.",
+        "imageUrl": "images/Splendours_Products/main_products/product1.png",
+        "subImageUrl":"images/Splendours_Products/sub_products/product1.png"
+      },
+      {
+        "product_name": "SPLENDOURS PROJECTS",
+        "product_subname":"CHARLOTTE",
+        "product_content":"Available in our freeform style, the Charlotte sandstone is made up of beautiful soft hues such as cream, yellow and pink.",
+        "imageUrl": "images/Splendours_Products/main_products/product2.png",
+        "subImageUrl":"images/Splendours_Products/sub_products/product2.png"
+      },
+      {
+        "product_name": "SPLENDOURS PROJECTS",
+        "product_subname":"SILVER TRAVERTINE",
+        "product_content":"Available in our freeform style, the Charlotte sandstone is made up of beautiful soft hues such as cream, yellow and pink.",
+        "imageUrl": "images/Splendours_Products/main_products/product3.png",
+        "subImageUrl":"images/Splendours_Products/sub_products/product3.png"
+      },
+      {
+        "product_name": "STELLA MARIS",
+        "product_subname":"ATLANTIC MARBLE",
+        "product_content":"Available in our freeform style, the Charlotte sandstone is made up of beautiful soft hues such as cream, yellow and pink.",
+        "imageUrl": "images/Splendours_Products/main_products/product4.png",
+        "subImageUrl":"images/Splendours_Products/sub_products/product4.png"
+      }
+    ]
+  }

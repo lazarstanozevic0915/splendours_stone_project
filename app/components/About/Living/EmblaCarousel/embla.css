@@ -1,0 +1,23 @@
+.embla {
+    position: relative;
+  }
+  
+  .embla__viewport {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .embla__container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .embla__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+  }

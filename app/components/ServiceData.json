@@ -1,0 +1,16 @@
+{
+    "resources": [
+        {
+            "service": "WALLING"
+        },
+        {
+            "service": "PAVING"
+        },
+        {
+            "service": "INSTALLATION"
+        },
+        {
+            "service": "INFORMATION"
+        }
+    ]
+}

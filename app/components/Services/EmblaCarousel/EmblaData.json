@@ -1,0 +1,16 @@
+{
+    "resources": [
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Service/products/image1.jpg"
+      },
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Service/products/image2.jpg"
+      },
+      {
+        "product_name": "OUTDOOR",
+        "imageUrl": "images/Service/products/image3.jpg"
+      }
+    ]
+  }

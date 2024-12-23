@@ -1,0 +1,16 @@
+{
+    "resources": [
+      {
+        "imageUrl": "images/About/Stones/Mobile/stone1.svg"
+      },
+      {
+        "imageUrl": "images/About/Stones/Mobile/stone2.svg"
+      },
+      {
+        "imageUrl": "images/About/Stones/Mobile/stone3.svg"
+      },
+      {
+        "imageUrl": "images/About/Stones/Mobile/stone4.svg"
+      }
+    ]
+  }

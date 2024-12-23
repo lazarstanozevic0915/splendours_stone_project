@@ -1,0 +1,10 @@
+{
+    "resources": [
+      { "imageUrl": "/images/Home/WallingRange/product1.jpg", "name": "CHARLOTTE" },
+      { "imageUrl": "/images/Home/WallingRange/product2.jpg", "name": "JAMIESON" },
+      { "imageUrl": "/images/Home/WallingRange/product3.jpg", "name": "BUFFALO" },
+      { "imageUrl": "/images/Home/WallingRange/product4.jpg", "name": "BELOKA" },
+      { "imageUrl": "/images/Home/WallingRange/product5.jpg", "name": "SHOREHAM" },
+      { "imageUrl": "/images/Home/WallingRange/product6.jpg", "name": "BEACHPORT" }
+    ]
+  }
